@@ -21,8 +21,8 @@ public static void main(String[] args) {
 	bool = a == 10;
 	bool = b != 10;
 	
-	bool a > 10 && b < 20;
-	bool a > 10 || b < 20;
+	//bool a > 10 && b < 20;
+	//bool a > 10 || b < 20;
 	
 	bool = !(a > 10);
 	
