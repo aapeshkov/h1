@@ -7,9 +7,15 @@ public static void main(String[] args) {
 	Scanner scanner = new Scanner(System.in);
 	
 	while (scanner.hasNextLine()) {
-		System.out.println(scanner.nextLine());
-	}
+		String nextLine = scanner.nextLine();
+		System.out.println(nextLine);
+		if (nextLine.equals("exit")) {
+			break; // рекращет работы циклов
+		
+			}
+		}
 	
 	System.out.println("Good Bye");
 }
+
 }
