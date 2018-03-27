@@ -24,6 +24,12 @@ private static void printArray(int[] a) {
 		System.out.println(a[i]);
 		i++;
 	}
+	
+	String h = "Hello";
+	
+	for (char c : h.toCharArray()) {
+		System.out.println(c);
+	}
 	}
 }
 

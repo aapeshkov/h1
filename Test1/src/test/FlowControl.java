@@ -35,7 +35,7 @@ public static void main(String[] args) {// тело метода
 		i++;
 	}
 	
-	if (i=10) {
+	if (i == 10) {
 		System.out.println(i);
 	}
 	
