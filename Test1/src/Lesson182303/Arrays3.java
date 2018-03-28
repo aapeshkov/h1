@@ -9,7 +9,7 @@ public static void main(String[] args) {
 			{1,8,9},
 		};
 		
-	int x = indexOfSum(a, 10);
+	int x = indexOfSum(a, 10);//возвращаем индекс число на котором сумма превысит 10
 	System.out.println(x);
 	}
 
@@ -18,13 +18,13 @@ private static int indexOfSum(int[][] a, int max) {
 	
 	int n = -1;
 	
-	OUTER:
+	OUTER: // метка
 	for (int i = 0; i < a.length; i++) {
 		for (int j = 0; j < a.length; j++) {
 			n++;
 			sum += a[i][j];
 			if (sum > max) {
-				break OUTER;
+				break OUTER; // выход из метки
 			}
 		}
 	}
